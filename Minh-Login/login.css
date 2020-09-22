@@ -1,0 +1,156 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: #eee;
+    color: #666;
+}
+
+.login-container{
+    height: 100vh;
+    width: 100%;
+}
+
+.login-form{
+    max-width: 100%;
+    width: 370px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-control{
+    font-size: 15px;
+    min-height: 48px;
+    font-weight: 500;
+}
+
+.form-control:focus{
+    border-color: #723dbe;
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+
+.forgot-link{
+    font-size: 13px;
+}
+
+.forgot-link label{
+    margin-bottom: 0;
+}
+
+.login-form a{
+    text-decoration: none;
+    color: #666;
+}
+
+.login-form a:hover{
+    color: #723dbe;
+}
+
+.btn-success{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
+.btn-success:focus,
+.btn-success:hover,
+.btn-success:active,
+.btn-success:active:focus{
+    color: #fff;
+}
+
+.btn-success:focus{
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+
+
+.btn-facebook{
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
+.btn-facebook:focus,
+.btn-facebook:hover,
+.btn-facebook:active,
+.btn-facebook:active:focus{
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btn-facebook:focus{
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+
+
+.btn-google{
+    background-color: #dc3545;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
+.btn-google:focus,
+.btn-google:hover,
+.btn-google:active,
+.btn-google:active:focus{
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-google:focus{
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+
+.or{
+    border-top: 1px solid gray;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+
+}
+.or > span{
+    display: inline-block;
+    background: #eee;
+    color: gray;
+    position: relative;
+    z-index: 2;
+    padding: 0 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    top:-10px;
+}
+
+.btn-gg{
+    margin-bottom: 15px;
+    color: black;
+    border: 1px solid gray;
+    height: 50px;
+    font-size: 15px;
+    width: 165px;
+    float: left;
+    font-weight: 500;
+    border-radius: 0px;
+
+}
+
+.btn-gg:focus,
+.btn-gg:hover,
+.btn-gg:active,
+.btn-gg:focus{
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+
+.form-check label{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.form-check input{
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+}
+
